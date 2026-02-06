@@ -1,0 +1,25 @@
+# Task Checklist: Order and Payment Management API
+
+- [/] Requirements Analysis & Project Setup <!-- id: 0 -->
+    - [x] Analyze project requirements
+    - [x] Create detailed implementation plan (Pure API)
+    - [ ] Setup Laravel Project
+- [ ] Core Architecture & Database <!-- id: 1 -->
+    - [ ] Design Database Schema (Users, Orders, Payments, OrderItems, Gateways)
+    - [ ] Create Migrations & Models
+- [ ] Payment Strategy Pattern Implementation <!-- id: 2 -->
+    - [ ] Define PaymentGateway Interface
+    - [ ] Implement PayPal Gateway (Mock)
+    - [ ] Implement Stripe/CreditCard Gateway (Mock)
+    - [ ] Implement PaymentStrategyContext
+- [ ] API Development (JWT & Restrictions) <!-- id: 3 -->
+    - [ ] Setup JWT Authentication
+    - [ ] Implement Auth Endpoints (Register, Login)
+    - [ ] Implement Order Endpoints (Create, Update, Delete, View)
+    - [ ] Implement Payment Endpoints (Process, View)
+    - [ ] Apply Validation & Business Rules
+- [x] Testing & Documentation <!-- id: 5 -->
+    - [x] Write Unit Tests for Strategy Pattern
+    - [x] Write Feature Tests for API Endpoints
+    - [x] Generate Postman Collection
+    - [x] Write README with Setup & Extensibility Guide
